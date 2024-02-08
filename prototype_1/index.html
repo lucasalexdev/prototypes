@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site Teste</title>
+</head>
+<body>
+    <header>
+        <h1>Site Teste</h1>
+        <p>Bem-vindo ao meu site!</p>
+    </header>
+
+    <section id="main-content">
+        <h2>Conteúdo Principal</h2>
+        <p>Este é um site de exemplo de interface.</p>
+        
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email">
+
+            <button type="button" onclick="mostrarMensagem()">Enviar</button>
+        </form>
+        
+        <div class="interactive-elements">
+            <p class="primary-color" onclick="mudarCor()">Clique para mudar a cor!</p>
+            <button onclick="mostrarOcultar()">Mostrar/Ocultar</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Site Teste. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

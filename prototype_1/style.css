@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+}
+
+h1, h2 {
+    color: #3498db;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+/* Adicione mais cores conforme necessário */
+
+/* Exemplo de cores adicionais */
+.primary-color {
+    color: #e74c3c;
+}
+
+.secondary-color {
+    color: #9b59b6;
+}
+/* Estilos anteriores permanecem inalterados */
+
+.interactive-elements {
+    margin-top: 30px;
+}
+
+.interactive-elements p, .interactive-elements button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.interactive-elements p:hover, .interactive-elements button:hover {
+    background-color: #ecf0f1;
+    transition: background-color 0.3s ease;
+}
+
+/* Adicione mais estilos interativos conforme necessário */
